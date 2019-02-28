@@ -1,0 +1,29 @@
+li {
+  display: flex;
+  padding: 20px 0;
+  counter-increment: item;
+  border-bottom: 1px solid #d4d2d2;
+}
+
+li:before {
+  width: 82px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  content: counter(item);
+  font-family: Arial, sans-serif;
+}
+
+img {
+  width: 87px;
+  height: 87px;
+  border-radius: 5px;
+}
+
+span {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 15px;
+  font-family: Arial, sans-serif;
+}

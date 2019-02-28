@@ -1,0 +1,23 @@
+li {
+  display: flex;
+  padding: 20px 0 20px 20px;
+  border-bottom: 1px solid #d4d2d2;
+}
+
+li:first-child {
+  border-top: 1px solid #d4d2d2;
+}
+
+img {
+  width: 87px;
+  height: 87px;
+  border-radius: 5px;
+}
+
+span {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 15px;
+  font-family: Arial, sans-serif;
+}

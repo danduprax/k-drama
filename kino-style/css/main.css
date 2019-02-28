@@ -1,0 +1,39 @@
+body {
+	background: #999;
+}
+
+ul.drama-list {
+	width: 690px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+li.drama-entry {
+	float: left;
+	cursor: pointer;
+	margin-left: 11px;
+	position: relative;
+}
+
+li.drama-entry img {
+	width: 125px;
+	height: 187px;
+	display: block;
+	border-radius: 4px;
+}
+
+li.drama-entry .overlay {
+  	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: border .1s linear;
+	border: 1px solid #666;
+	border-radius: 4px;
+}
+
+li.drama-entry:hover .overlay {
+	border: 3px solid #333;
+}
